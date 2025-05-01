@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Info Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outerBox">
+
+        <h2 class="hedTxt">Student Info Manager</h2>
+        <form id="userForm">
+          <input type="text" class="infoInput" id="name" placeholder="Enter Name" required />
+          <input type="number" class="infoInput" id="age" placeholder="Enter Age" required />
+          <input type="email" class="infoInput" id="email" placeholder="Enter Email" required />
+          <button type="submit">Add Student</button>
+        </form>
+    
+        <h3>Search by Name</h3>
+        <input type="text" class="infoInput" id="searchInput" placeholder="Search Name" />
+        <div id="searchResults"></div>
+    
+        <ol id="userList"></ol>
+    </div>
+      <script src="script.js"></script>
+</body>
+</html>
