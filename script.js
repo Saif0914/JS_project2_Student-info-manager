@@ -68,6 +68,6 @@
           searchResults.appendChild(p);
         });
       } else if (searchInput.value.trim() !== '') {
-        searchResults.textContent = 'No user found.';
+        searchResults.textContent = 'User not found.';
       }
     }
